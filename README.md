@@ -1,6 +1,6 @@
 # The Geometry of Agency: Numerical Simulations
 
-This repository contains the Python source code and Jupyter Notebooks required to reproduce the numerical simulations, topological data models, and figures presented in the manuscript *[Insert Your Paper Title Here]*.
+This repository contains the Python source code and Jupyter Notebooks required to reproduce the numerical simulations, topological data models, and figures presented in the manuscript *The Geometry of Agency*.
 
 ## Overview
 
@@ -10,11 +10,10 @@ The computational framework models intentional agency as a non-Abelian holonomy 
 
 The notebooks are numbered sequentially and map directly to the figures in the manuscript:
 
+* **`00_Phase-space_Figures.ipynb`** Generates the foundational theoretical geometry and state-space visualizations. Computes the 3D helical bundle, metabolic energy curves, Fokker-Planck vector fields ($\mathbf{J}_{ss}$ and $\mathbf{D}$), and the memory-energy trade-off. (Reproduces Figures 1, 2, and 3)
 * **`01_H1_Metric_Collapse.ipynb`** Simulates structural breakdown (Hypothesis 1). Contains the Euler-Maruyama integration of the intentional lifting mechanism versus zero-mean ergodic noise. *(Reproduces Figure 4)*
 * **`02_H2_Metabolic_Exhaustion.ipynb`** Simulates temporal/metabolic exhaustion (Hypothesis 2). Models the dynamic depletion of the $\alpha$ coupling parameter and the resulting "wilting" of the motor trajectory. *(Reproduces Figure 5)*
 * **`03_H3_Contextual_Failure.ipynb`** Simulates state-dependent contextual failure (Hypothesis 3). Models the boundary-crossing event where the trajectory exits the stable manifold, resulting in a sudden drop of intentional holonomy. *(Reproduces Figure 6)*
-* **`04_Figure_1_Redraw.ipynb`** Generates the baseline theoretical geometry. Computes the 3D helical bundle structure and the quadratic metabolic premium curves ($\Delta\mathcal{E} \propto \alpha^2$). *(Reproduces Figure 1)*
-* **`05_Figure_2_Stirring.ipynb`** Visualizes the Fokker-Planck state space. Computes the radial stochastic diffusion ($\mathbf{D}$) and the tangential probability flux ($\mathbf{J}_{ss}$) driven by the metabolic pump. *(Reproduces Figure 2)*
 
 ## Requirements
 
